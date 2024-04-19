@@ -5,12 +5,16 @@ homepage: 'https://supabase.com'
 repository: 'https://github.com/supabase/supabase-flutter/tree/main/packages/supabase'
 documentation: 'https://supabase.com/docs/reference/dart/introduction'
 
+publish_to: none
+
 environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   functions_client: ^2.0.0
-  gotrue: ^2.6.0
+  # gotrue: ^2.6.0
+  gotrue:
+    path: ../gotrue
   http: '>=0.13.5 <2.0.0'
   postgrest: ^2.1.1
   realtime_client: ^2.0.3
